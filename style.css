@@ -1,0 +1,32 @@
+
+
+/* ---- Perks 2x2 Grid Layout ---- */
+
+.perks-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap:16px;
+  width:100%;
+}
+
+.perk-family{
+  background:rgba(0,0,0,0.4);
+  border:1px solid rgba(255,255,255,0.1);
+  border-radius:6px;
+  padding:10px;
+  min-height:220px;
+  display:flex;
+  flex-direction:column;
+}
+
+.perk-family h3{
+  text-align:center;
+  margin:0 0 6px 0;
+}
+
+.perk-family-body{
+  flex:1;
+  overflow-y:auto;
+}
+
